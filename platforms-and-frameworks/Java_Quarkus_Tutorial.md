@@ -182,3 +182,11 @@ Quarkus is a powerful framework for building cloud-native Java applications. Thi
 - [Quarkus Documentation](https://quarkus.io/guides/)
 - [Quarkus GitHub Repository](https://github.com/quarkusio/quarkus)
 - [Quarkus Extensions](https://quarkus.io/extensions/)
+
+## Content Review
+
+The content in this repository has been reviewed by [chevp](https://github.com/chevp). Chevp is dedicated to ensuring that the information provided is accurate, relevant, and up-to-date, helping users to learn and implement programming skills effectively.
+
+## About the Reviewer
+
+For more insights and contributions, visit chevp's GitHub profile: [chevp's GitHub Profile](https://github.com/chevp).
