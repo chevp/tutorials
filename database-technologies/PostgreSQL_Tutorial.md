@@ -1,19 +1,6 @@
 
 # PostgreSQL Tutorial
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Basic Concepts](#basic-concepts)
-- [Setting Up a Database](#setting-up-a-database)
-- [Data Types](#data-types)
-- [Creating Tables](#creating-tables)
-- [Inserting Data](#inserting-data)
-- [Querying Data](#querying-data)
-- [Updating Data](#updating-data)
-- [Deleting Data](#deleting-data)
-- [Conclusion](#conclusion)
-
 ## Introduction
 PostgreSQL is an open-source relational database management system that uses and extends the SQL language. It is known for its stability, flexibility, and advanced features.
 
