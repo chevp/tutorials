@@ -5,16 +5,6 @@ Welcome to the **Tutorials** repository! This repository is a collection of Mark
 
 ---
 
-## Contents
-
-Below is a list of the available tutorials in this repository:
-
-1. **Angular CLI Commands** - Learn to use the Angular Command Line Interface for building and managing Angular applications.
-2. **Docker Commands** - Get started with Docker, managing containers, images, volumes, networks, and more.
-3. **[Add additional tutorials as you expand this repository]**
-
----
-
 ## How to Use
 
 Each tutorial is provided as a Markdown (`.md`) file, which can be easily viewed on GitHub or downloaded for offline reference. Simply click on the tutorial you’re interested in to access the complete guide.
