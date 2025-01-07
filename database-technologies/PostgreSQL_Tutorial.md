@@ -1,7 +1,6 @@
 
 # PostgreSQL Tutorial
 
-## Introduction
 PostgreSQL is an open-source relational database management system that uses and extends the SQL language. It is known for its stability, flexibility, and advanced features.
 
 ## Installation
