@@ -20,7 +20,3 @@ Contributions are welcome! If you have a tutorial that fits the themes of this r
 ## License
 
 This repository is licensed under the [MIT License](LICENSE), which allows you to use, modify, and distribute these tutorials with attribution.
-
----
-
-Happy Learning! 🎉
