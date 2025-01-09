@@ -17,7 +17,7 @@ Apache Tomcat is an open-source web server and servlet container developed by th
 Add the `bin` directory of Tomcat to your system's PATH:
 
 - **Linux/Mac**: Add `export PATH=$PATH:/path/to/tomcat/bin` to your `.bashrc` or `.zshrc` file.
-- **Windows**: Add `C:\path	o	omcatin` to the system PATH.
+- **Windows**: Add `C:\path\tomcat\bin` to the system PATH.
 
 ### Step 3: Start Tomcat
 
