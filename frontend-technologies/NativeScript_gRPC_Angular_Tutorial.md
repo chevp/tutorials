@@ -3,16 +3,6 @@
 
 This guide will walk you through setting up gRPC in a NativeScript Angular application, from installing dependencies to making gRPC calls. We'll cover all necessary steps, including configuring Angular, using `grpc-web`, generating client code, and handling CORS.
 
-## Table of Contents
-
-1. [Prerequisites](#prerequisites)
-2. [Install gRPC Web Package](#install-grpc-web-package)
-3. [Generate gRPC Client Code](#generate-grpc-client-code)
-4. [Set Up NativeScript for HTTP/2 Compatibility](#set-up-nativescript-for-http2-compatibility)
-5. [Implement gRPC Client in Angular Component](#implement-grpc-client-in-angular-component)
-6. [Enable CORS on the gRPC Server](#enable-cors-on-the-grpc-server)
-7. [Testing and Debugging](#testing-and-debugging)
-
 ---
 
 ## 1. Prerequisites
@@ -97,7 +87,3 @@ The content in this repository has been reviewed by [chevp](https://github.com/c
 ## About the Reviewer
 
 For more insights and contributions, visit chevp's GitHub profile: [chevp's GitHub Profile](https://github.com/chevp).
-
----
-
-Happy coding with gRPC in NativeScript and Angular!
