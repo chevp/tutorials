@@ -49,7 +49,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 
 1. Push to the `main` branch
 2. GitHub Actions will automatically build and deploy
-3. Site will be available at `https://[username].github.io/tutorials`
+3. Site will be available at `https://chevp.github.io/tutorials`
 
 ### Manual Deployment
 

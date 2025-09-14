@@ -18,4 +18,4 @@ npm run typecheck
 ## GitHub Pages Setup
 - Enable GitHub Pages in repository settings
 - Set source to "GitHub Actions"
-- URL will be: https://[username].github.io/tutorials
+- URL will be: https://chevp.github.io/tutorials
