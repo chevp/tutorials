@@ -23,6 +23,7 @@ const sidebars = {
         'cloud-native-technologies/Kubernetes_Tutorial',
         'cloud-native-technologies/Docker_Commands_Tutorial',
         'cloud-native-technologies/Microservices_Tutorial',
+        'cloud-native-technologies/Microservices_Architecture_Patterns_Tutorial',
         'cloud-native-technologies/MariaDB_Docker_Setup_Tutorial',
         'cloud-native-technologies/Angular_Firebase_Hosting_Tutorial',
       ],
@@ -50,6 +51,7 @@ const sidebars = {
         'frontend-technologies/Electron_Tutorial',
         'frontend-technologies/Thymeleaf_Tutorial',
         'frontend-technologies/Node_Module_Library_Tutorial',
+        'frontend-technologies/Modern_Web_Development_Patterns_Tutorial',
         {
           type: 'category',
           label: 'Three.js',
@@ -138,6 +140,7 @@ const sidebars = {
         'development-tools/SonarQube_Tutorial',
         'development-tools/Nexus_Tutorial',
         'development-tools/Grafana_Prometheus_Tutorial',
+        'development-tools/Asset_Management_Systems_Tutorial',
       ],
     },
     {
@@ -168,6 +171,7 @@ const sidebars = {
         'graphics-and-compute-api/Vulkan_Synchronization_Command_Queues_Tutorial',
         'graphics-and-compute-api/Vulkan_Unified_Graphics_Compute_Tutorial',
         'graphics-and-compute-api/Vulkan_Validation_Layers_Tutorial',
+        'graphics-and-compute-api/Real_Time_Graphics_Programming_Tutorial',
       ],
     },
     {
@@ -216,6 +220,9 @@ const sidebars = {
       collapsed: true,
       items: [
         'programming-guides/Clean_Code_Tutorial',
+        'programming-guides/Cross_Platform_Development_Strategies_Tutorial',
+        'programming-guides/Entity_Component_System_Architecture_Tutorial',
+        'programming-guides/State_Machine_Patterns_Tutorial',
       ],
     },
     {
@@ -227,6 +234,7 @@ const sidebars = {
         'markup-language-and-data-serialization-formats/XML_Tutorial',
         'markup-language-and-data-serialization-formats/YAML_Tutorial',
         'markup-language-and-data-serialization-formats/Markdown_Tutorial',
+        'markup-language-and-data-serialization-formats/Data_Processing_and_Serialization_Tutorial',
       ],
     },
     {
@@ -257,6 +265,73 @@ const sidebars = {
         'source-code-repository/Git_Branches_Tutorial',
         'source-code-repository/Git_Move_Submodule_to_Subfolder_Tutorial',
         'source-code-repository/SVN_Tutorial',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'DevOps & Infrastructure',
+      collapsed: true,
+      items: [
+        'devops-and-infrastructure/Infrastructure_Monitoring_Tutorial',
+        'devops-and-infrastructure/ELK_Stack_Tutorial',
+        'devops-and-infrastructure/Service_Mesh_Tutorial',
+        'devops-and-infrastructure/Configuration_Management_Tutorial',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Security',
+      collapsed: true,
+      items: [
+        'security/Application_Security_Tutorial',
+        'security/OWASP_Top_10_Tutorial',
+        'security/Authentication_Authorization_Tutorial',
+        'security/Cryptography_Tutorial',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Testing',
+      collapsed: true,
+      items: [
+        'testing/Unit_Testing_Tutorial',
+        'testing/Integration_Testing_Tutorial',
+        'testing/End_to_End_Testing_Tutorial',
+        'testing/Performance_Testing_Tutorial',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'API & Integration',
+      collapsed: true,
+      items: [
+        'api-and-integration/REST_API_Design_Tutorial',
+        'api-and-integration/GraphQL_Tutorial',
+        'api-and-integration/Message_Queues_Tutorial',
+        'api-and-integration/API_Gateway_Tutorial',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Data Science & Analytics',
+      collapsed: true,
+      items: [
+        'data-science-and-analytics/Data_Analysis_Tutorial',
+        'data-science-and-analytics/Machine_Learning_Basics_Tutorial',
+        'data-science-and-analytics/Data_Visualization_Tutorial',
+        'data-science-and-analytics/Big_Data_Tutorial',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Software Ecosystems',
+      collapsed: true,
+      items: [
+        'software-ecosystems/Full_Stack_Web_Application_Ecosystem_Tutorial',
+        'software-ecosystems/IoT_Embedded_Systems_Ecosystem_Tutorial',
+        'software-ecosystems/Data_Analytics_ML_Pipeline_Ecosystem_Tutorial',
+        'software-ecosystems/Microservices_Ecosystem_Tutorial',
+        'software-ecosystems/Cross_Platform_Development_Ecosystem_Tutorial',
       ],
     },
   ],
