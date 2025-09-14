@@ -172,6 +172,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Mobile App Development',
+      collapsed: true,
+      items: [
+        'mobile-app-development/Android_SDK_Studio_Setup_Tutorial',
+        'mobile-app-development/Cpp_gRPC_Android_Integration_Tutorial',
+        'mobile-app-development/Vulkan_Android_Setup_Tutorial',
+        'mobile-app-development/Cpp_gRPC_Vulkan_Client_Tutorial',
+        'mobile-app-development/Android_Cpp_gRPC_Vulkan_Integration_Tutorial',
+        'mobile-app-development/Rust_Mobile_Development_Tutorial',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Programming Languages',
       collapsed: true,
       items: [
@@ -187,6 +200,14 @@ const sidebars = {
         'programming-languages/PHP_8_Tutorial',
         'programming-languages/CMake_CPP_Tutorial',
         'programming-languages/Ling_Tutorial',
+        {
+          type: 'category',
+          label: 'Rust',
+          items: [
+            'programming-languages/Rust_Desktop_Development_Tutorial',
+            'programming-languages/Rust_Web_App_Development_Tutorial',
+          ],
+        },
       ],
     },
     {
