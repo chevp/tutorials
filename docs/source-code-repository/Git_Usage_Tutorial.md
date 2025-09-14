@@ -7,11 +7,11 @@ Git is a version control system that allows multiple users to manage and track c
 
 ## Table of Contents
 
-1. [Getting Started with Git](#getting-started-with-git)
-2. [Basic Git Commands](#basic-git-commands)
-3. [Branching and Merging](#branching-and-merging)
-4. [Working with Remote Repositories](#working-with-remote-repositories)
-5. [Advanced Git Commands](#advanced-git-commands)
+1. [Getting Started with Git](#1-getting-started-with-git)
+2. [Basic Git Commands](#2-basic-git-commands)
+3. [Branching and Merging](#3-branching-and-merging)
+4. [Working with Remote Repositories](#4-working-with-remote-repositories)
+5. [Advanced Git Commands](#5-advanced-git-commands)
 
 ---
 

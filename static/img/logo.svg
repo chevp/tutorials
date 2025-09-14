@@ -1,0 +1,97 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="codeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4338ca;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="snowflakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer ring with code symbols -->
+  <g transform="translate(32, 32)">
+    <!-- Main snowflake structure -->
+    <g stroke="url(#snowflakeGradient)" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <!-- Center hexagon -->
+      <polygon points="0,-8 6.93,-4 6.93,4 0,8 -6.93,4 -6.93,-4" fill="url(#codeGradient)" stroke="url(#snowflakeGradient)" stroke-width="1.5"/>
+
+      <!-- Main six rays -->
+      <line x1="0" y1="-8" x2="0" y2="-24" />
+      <line x1="6.93" y1="-4" x2="20.78" y2="-12" />
+      <line x1="6.93" y1="4" x2="20.78" y2="12" />
+      <line x1="0" y1="8" x2="0" y2="24" />
+      <line x1="-6.93" y1="4" x2="-20.78" y2="12" />
+      <line x1="-6.93" y1="-4" x2="-20.78" y2="-12" />
+
+      <!-- Branch decorations -->
+      <!-- Top ray -->
+      <line x1="0" y1="-16" x2="-4" y2="-20" />
+      <line x1="0" y1="-16" x2="4" y2="-20" />
+
+      <!-- Top-right ray -->
+      <line x1="13.86" y1="-8" x2="10.39" y2="-14.93" />
+      <line x1="13.86" y1="-8" x2="17.32" y2="-5.07" />
+
+      <!-- Bottom-right ray -->
+      <line x1="13.86" y1="8" x2="17.32" y2="5.07" />
+      <line x1="13.86" y1="8" x2="10.39" y2="14.93" />
+
+      <!-- Bottom ray -->
+      <line x1="0" y1="16" x2="4" y2="20" />
+      <line x1="0" y1="16" x2="-4" y2="20" />
+
+      <!-- Bottom-left ray -->
+      <line x1="-13.86" y1="8" x2="-10.39" y2="14.93" />
+      <line x1="-13.86" y1="8" x2="-17.32" y2="5.07" />
+
+      <!-- Top-left ray -->
+      <line x1="-13.86" y1="-8" x2="-17.32" y2="-5.07" />
+      <line x1="-13.86" y1="-8" x2="-10.39" y2="-14.93" />
+    </g>
+
+    <!-- Programming symbols at ray endpoints -->
+    <g fill="url(#codeGradient)" font-family="Monaco, 'Courier New', monospace" font-size="8" font-weight="bold" text-anchor="middle">
+      <!-- Top: < > -->
+      <text x="0" y="-26" dominant-baseline="middle">&lt;/&gt;</text>
+
+      <!-- Top-right: {} -->
+      <text x="22" y="-10" dominant-baseline="middle">{}</text>
+
+      <!-- Bottom-right: [] -->
+      <text x="22" y="14" dominant-baseline="middle">[]</text>
+
+      <!-- Bottom: () -->
+      <text x="0" y="28" dominant-baseline="middle">()</text>
+
+      <!-- Bottom-left: :: -->
+      <text x="-22" y="14" dominant-baseline="middle">::</text>
+
+      <!-- Top-left: => -->
+      <text x="-22" y="-10" dominant-baseline="middle">=&gt;</text>
+    </g>
+
+    <!-- Center code symbol -->
+    <text x="0" y="2" fill="white" font-family="Monaco, 'Courier New', monospace" font-size="6" font-weight="bold" text-anchor="middle" dominant-baseline="middle">&lt;/&gt;</text>
+  </g>
+
+  <!-- Subtle glow effect -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .logo-group {
+      filter: url(#glow);
+    }
+  </style>
+</svg>
