@@ -60,8 +60,7 @@ const config = {
       navbar: {
         title: 'Programming Tutorials',
         logo: {
-          alt: 'Programming Tutorials Logo',
-          src: 'img/logo.svg',
+          alt: '🐧',
         },
         items: [
           {
