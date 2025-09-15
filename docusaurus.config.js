@@ -61,6 +61,7 @@ const config = {
         title: 'Programming Tutorials',
         logo: {
           alt: '🐧',
+          src: 'img/logo.svg',
         },
         items: [
           {
