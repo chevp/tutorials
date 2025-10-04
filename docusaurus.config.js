@@ -11,7 +11,7 @@ const config = {
   tagline: 'Comprehensive development guides and tutorials',
   favicon: 'img/favicon-simple.svg',
 
-  url: 'https://chevp.github.io/tutorials',
+  url: 'https://chevp.github.io',
   baseUrl: '/tutorials/',
 
   organizationName: 'chevp',
