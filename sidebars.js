@@ -22,6 +22,7 @@ const sidebars = {
       items: [
         'cloud-native-technologies/Kubernetes_Tutorial',
         'cloud-native-technologies/Docker_Commands_Tutorial',
+        'cloud-native-technologies/Docker_Container_Registry_Tutorial',
         'cloud-native-technologies/Microservices_Tutorial',
         'cloud-native-technologies/Microservices_Architecture_Patterns_Tutorial',
         'cloud-native-technologies/MariaDB_Docker_Setup_Tutorial',
