@@ -12,7 +12,7 @@ const config = {
   favicon: 'img/favicon-simple.svg',
 
   url: 'https://chevp.github.io',
-  baseUrl: process.env.NODE_ENV === 'production' ? '/tutorials/' : '/',
+  baseUrl: '/',
 
   organizationName: 'chevp',
   projectName: 'tutorials',
