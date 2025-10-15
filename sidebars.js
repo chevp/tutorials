@@ -321,6 +321,17 @@ const sidebars = {
         'data-science-and-analytics/Machine_Learning_Basics_Tutorial',
         'data-science-and-analytics/Data_Visualization_Tutorial',
         'data-science-and-analytics/Big_Data_Tutorial',
+        {
+          type: 'category',
+          label: 'LLM & AI',
+          items: [
+            'data-science-and-analytics/LLM_Basics_Tutorial',
+            'data-science-and-analytics/LangChain4j_Tutorial',
+            'data-science-and-analytics/RAG_Tutorial',
+            'data-science-and-analytics/Vector_Databases_Tutorial',
+            'data-science-and-analytics/Open_Source_LLMs_Tutorial',
+          ],
+        },
       ],
     },
     {
