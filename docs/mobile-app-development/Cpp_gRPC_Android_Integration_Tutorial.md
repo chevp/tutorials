@@ -531,7 +531,7 @@ public class MainActivity extends AppCompatActivity {
         String serverAddress = serverAddressEdit.getText().toString().trim();
 
         if (serverAddress.isEmpty()) {
-            Toast.makeText(this, "Please enter server address", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Enter server address", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -561,7 +561,7 @@ public class MainActivity extends AppCompatActivity {
         String ageStr = ageEdit.getText().toString().trim();
 
         if (name.isEmpty()) {
-            Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Enter a name", Toast.LENGTH_SHORT).show();
             return;
         }
 

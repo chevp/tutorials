@@ -667,7 +667,7 @@ document.getElementById('get-device-info').addEventListener('click', async () =>
 document.getElementById('greet-button').addEventListener('click', async () => {
     const name = document.getElementById('name-input').value;
     if (!name.trim()) {
-        showResult('greeting-result', 'Please enter a name', 'error');
+        showResult('greeting-result', 'Enter a name', 'error');
         return;
     }
 
@@ -686,7 +686,7 @@ document.getElementById('greet-button').addEventListener('click', async () => {
 document.getElementById('calc-fib').addEventListener('click', async () => {
     const n = parseInt(document.getElementById('fib-input').value);
     if (isNaN(n) || n < 0) {
-        showResult('fib-result', 'Please enter a valid number', 'error');
+        showResult('fib-result', 'Enter a valid number', 'error');
         return;
     }
 
@@ -705,7 +705,7 @@ document.getElementById('calc-fib').addEventListener('click', async () => {
 document.getElementById('save-data').addEventListener('click', async () => {
     const data = document.getElementById('data-input').value;
     if (!data.trim()) {
-        showResult('storage-result', 'Please enter data to save', 'error');
+        showResult('storage-result', 'Enter data to save', 'error');
         return;
     }
 
@@ -737,7 +737,7 @@ document.getElementById('load-data').addEventListener('click', async () => {
 document.getElementById('make-request').addEventListener('click', async () => {
     const url = document.getElementById('url-input').value;
     if (!url.trim()) {
-        showResult('network-result', 'Please enter a URL', 'error');
+        showResult('network-result', 'Enter a URL', 'error');
         return;
     }
 
@@ -1273,7 +1273,7 @@ const App = () => {
 
   const handleGreet = async () => {
     if (!name.trim()) {
-      Alert.alert('Error', 'Please enter a name');
+      Alert.alert('Error', 'Enter a name');
       return;
     }
 
@@ -1290,7 +1290,7 @@ const App = () => {
     const b = parseInt(num2);
 
     if (isNaN(a) || isNaN(b)) {
-      Alert.alert('Error', 'Please enter valid numbers');
+      Alert.alert('Error', 'Enter valid numbers');
       return;
     }
 

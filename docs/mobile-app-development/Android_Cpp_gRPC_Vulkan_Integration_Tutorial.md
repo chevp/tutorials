@@ -1167,7 +1167,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         String serverAddress = serverAddressEdit.getText().toString().trim();
 
         if (serverAddress.isEmpty()) {
-            Toast.makeText(this, "Please enter server address", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Enter server address", Toast.LENGTH_SHORT).show();
             return;
         }
 
